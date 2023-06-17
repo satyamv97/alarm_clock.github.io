@@ -1,0 +1,93 @@
+body{
+    
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20%;
+    
+    padding:-10px;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+-webkit-appearance: none;
+margin: 0;
+}
+
+#clock{
+    text-align: center;
+    background-color: blueviolet;
+    /* padding-top: 20px; */
+    border: 1px solid black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.bold{
+    font-size: larger;
+}
+#alarmSetup{
+    
+    margin: 0px;
+    border: 1px solid rgb(235, 14, 14);
+    background-color: aqua;
+   
+}
+button{
+    height: 25px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.ip1{
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    width: 20px;
+    height: 20px;
+}
+form{
+    padding: 0px;
+    margin: 0px;
+}
+#setTime{
+    display: flex;
+    border: 2px solid royalblue;
+    align-items: center;
+    margin: 0px;
+   
+}
+#setAlarm{
+    padding:0px;
+    margin: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#alarmList{
+background-color:aquamarine;
+padding-left: 10%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+li{
+display: flex;
+justify-content: space-between;
+border: 1px solid brown;
+border-radius: 5px;
+align-items: center;
+margin: 2px;
+}
+#mylist{
+    color: brown;
+  
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.alarms{
+   
+    margin: 0;
+    padding: 0;
+    margin: -16px;
+   
+}

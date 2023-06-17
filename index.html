@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="clock" class="bold">00:00:00 AM</div>
+    <div id="alarmSetup">
+        <form>
+            <div id='setAlarm'>
+                <div id="setTime">
+                    <div class="time"><input type="number" name="in_hour" id="in_hour" class="ip1" min="0" max="12" placeholder="00" required></div>
+                    <div><strong>:</strong></div>
+                    <div class="time"><input type="number" name="in_min" id="in_min" class="ip1" min="0" max="59" placeholder="00" required></div>
+                    <div><strong>:</strong></div>
+                    <div class="time"><input type="number" name="in_sec" id="in_sec" class="ip1" min="0" max="59" placeholder="00" required></div>
+                    <div class="time"><input type="text" name="am_pm" id="am_pm" class="ip1"  placeholder="PM" pattern="AM|PM" required></div>
+
+                    
+                </div>
+                <div id="setButton">
+                    <button>Set Alarm</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <div id="alarmList">
+        <div class="bold">Alarms</div>
+        <div class="alarms">
+            <ul id="mylist">
+
+            </ul>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="javasc.js"></script>
+
+</body>
+
+</html>
